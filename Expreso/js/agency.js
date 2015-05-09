@@ -5,6 +5,16 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+
+
+
+
+
+$(function() {
+  $('#flash1').addClass('animated slideInLeft');
+});
+
+
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -33,3 +43,4 @@ $(document).ready(function(e) {
 		acpanels.collapse("hide");
     });
 })
+
