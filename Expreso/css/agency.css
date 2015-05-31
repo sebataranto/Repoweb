@@ -195,7 +195,9 @@ fieldset[disabled] .btn-xl.active {
   vertical-align: baseline;
 }
 .panel-group{
-
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 
 }
 /*Aca termina servicios*/
